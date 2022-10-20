@@ -19,7 +19,7 @@ To train the models, run ```rc.py``` for review classification, ```nli.py``` for
 
 For the word-level and SDD models, it requires a trained SentencePiece model (otherwise it will use the tokenization of mT5-small). To do this, add the flag: ```--spm_model <path_to_spm>```.
 
-##### Evaluation
+#### Evaluation
 Models are saved according to a SLURM ID, or a randomly generated ID if SLURM isn't used. To reload a model, add the flag: ```--reload_id <ID>``` 
 To skip training, use the ```--eval_only``` flag. 
 
