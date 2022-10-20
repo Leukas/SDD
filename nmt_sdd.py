@@ -125,7 +125,7 @@ if __name__ == "__main__":
         
     pretrained = 'google/byt5-small'
     tok = ByT5Tokenizer.from_pretrained(pretrained)
-    tok_word = T5Tokenizer.from_pretrained('t5-small')
+    tok_word = T5Tokenizer.from_pretrained('google/mt5-small')
     if args.spm_model:
         tok_word = T5Tokenizer(args.spm_model, model_max_length=512)
 

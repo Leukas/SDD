@@ -131,7 +131,7 @@ if __name__ == "__main__":
         args.eval_steps = 10
 
         
-    pretrained = 'google/byt5-small' if char else 't5-small'
+    pretrained = 'google/byt5-small' if char else 'google/mt5-small'
     if args.model_type == "ds_word":
         folder = "data/iwslt2017/"
         files = [folder + "train.de", folder + "train.en"]
