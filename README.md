@@ -1,0 +1,2 @@
+# SDD
+Subword-Delimited Downsampling
