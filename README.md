@@ -1,6 +1,6 @@
 # Subword-Delimited Downsampling
 Here you can find our code related to the work in:
-Lukas Edman, Antonio Toral, and Gertjan van Noord. 2022. Subword-Delimited Downsampling for Better Character-Level Translation. _Findings of the Association for Computational Linguistics: EMNLP 2022. ([Arxiv Link](https://arxiv.org/pdf/2212.01304.pdf))
+Lukas Edman, Antonio Toral, and Gertjan van Noord. 2022. Subword-Delimited Downsampling for Better Character-Level Translation. _Findings of the Association for Computational Linguistics: EMNLP 2022._ ([Arxiv Link](https://arxiv.org/pdf/2212.01304.pdf))
 
 
 ### Requirements
